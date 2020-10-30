@@ -59,7 +59,7 @@ const Projects = () => {
     return (
         <div className="project-div" id="project">
             <Navbar></Navbar>
-            <div className="container">
+            <div className="container my-5 pt-5">
                 <h2 className="text-center py-4">Projects</h2>
                 <div className="row">
                     {

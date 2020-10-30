@@ -44,14 +44,16 @@ const blogsData = [
 const Blogs = () => {
     const [blogs, setBlogs] = useState(blogsData)
     return (
-        <div className="project-div" id="project">
-            <Navbar></Navbar>
-            <div className="container">
-                <h2 className="text-center py-4">Blogs</h2>
-                <div className="row">
-                    {
-                        blogs.map(blog => <BlogsItem blog={blog}></BlogsItem>)
-                    }
+        <div className="container">
+            <div className="project-div" id="project">
+                <Navbar></Navbar>
+                <div className=" my-5 pt-5">
+                    <h2 className="text-center py-4">Blogs</h2>
+                    <div className="row">
+                        {
+                            blogs.map(blog => <BlogsItem blog={blog}></BlogsItem>)
+                        }
+                    </div>
                 </div>
             </div>
         </div>
