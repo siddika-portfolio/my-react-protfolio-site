@@ -1,0 +1,41 @@
+.header-bg{
+    height: 100vh;
+    /* background: url("../../images/bg-image.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ .header_content{
+    width: 100%;
+    height: auto;
+    top: 40%;
+    left: 50%
+ }
+ .banner-img img{
+    width:250px;
+    height: auto;
+ }
+ .header_content h1{
+     font-weight: 700;
+ }
+ .header_content h3{
+    font-weight: 500;
+    animation: textanimation 1s  ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+ .header_content p{
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .header_icons{
+      font-size: 25px;
+  }
+  .header_icons a{
+    /* background-color: black; */
+    padding: 3px 6px;
+    border-radius: 50%;
+    color: #897bfc;
+    margin: 10px;
+  }
