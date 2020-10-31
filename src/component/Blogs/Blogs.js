@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Header/Navbar/Navbar';
 import BlogsItem from './BlogsItem/BlogsItem';
+import './Blog.css'
 
 const blogsData = [
     {
@@ -44,15 +45,17 @@ const blogsData = [
 const Blogs = () => {
     const [blogs, setBlogs] = useState(blogsData)
     return (
-        <div className="container">
-            <div className="project-div" id="project">
-                <Navbar></Navbar>
-                <div className=" my-5 pt-5">
-                    <h2 className="text-center py-4">Blogs</h2>
-                    <div className="row">
-                        {
-                            blogs.map(blog => <BlogsItem blog={blog}></BlogsItem>)
-                        }
+        <div className="blog-bg">
+            <div className="container">
+                <div className="project-div" id="project">
+                    <Navbar></Navbar>
+                    <div className=" my-5 ">
+                        <h2 className="text-center py-4">Blogs</h2>
+                        <div className="row">
+                            {
+                                blogs.map(blog => <BlogsItem blog={blog}></BlogsItem>)
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
