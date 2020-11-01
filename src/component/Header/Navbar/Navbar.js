@@ -6,7 +6,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg pt-4">
                 <img className="navbar-logo" src={logo} alt="" />
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

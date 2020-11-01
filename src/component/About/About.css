@@ -1,6 +1,16 @@
-.contact-bg{
+.about-bg{
     height: 100vh;
     background: url("../../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .email-line{
+      color:#897bfc;
+  }
+  .title-des{
+      margin:0px auto;
+  
+  }
+  .banner-img{
+     
   }
