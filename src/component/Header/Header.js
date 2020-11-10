@@ -11,12 +11,12 @@ const Header = () => {
                 <Navbar></Navbar>
                 <div className="row pt-5 text-center">
                     <div className="col-md-6">
-                        <div className="banner-img pt-5 ">
+                        <div className="banner-img pt-5 d-flex justify-content-center">
                             <img className="img-fluid" src={protfolioImg} alt="" />
                         </div>
                     </div>
-                    <div className="col-md-6 title-des d-flex align-items-center">
-                        <div className="header_content mt-3 align-items-center">
+                    <div className="col-md-6 title-des d-flex align-items-center justify-content-center">
+                        <div className="header_content mt-3">
                             <h2>Hi, This is </h2>
                             <h1> Siddika Akhter</h1>
                             <h3> Developer Sensible To FontAnd</h3>

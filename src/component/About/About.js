@@ -5,7 +5,7 @@ import protfolioImg from '../../images/Siddika.png'
 
 const About = () => {
     return (
-        <div className="about-bg">
+        <section className="about-bg">
             <div className="container-fluid">
                 <Navbar></Navbar>
                 <div className="row pt-5 text-center">
@@ -16,10 +16,7 @@ const About = () => {
                     </div>
                     <div className="col-md-6 title-des d-flex align-items-center">
                         <div className="header_content mt-3 ">
-                            {/* <h2>Hi, This is </h2> */}
                             <h1> about me</h1>
-                            {/* <h3> Developer Sensible To FontAnd</h3>
-                            */}
                             <div className="banner-des mt-3">
                                 <p>I count myself as a hardworking person. To pursue a challenging career in a</p>
 
@@ -36,12 +33,11 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
+            d
 
-        </div>
+        </section>
     );
 };
 
