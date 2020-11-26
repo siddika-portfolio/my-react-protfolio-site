@@ -50,6 +50,22 @@ const projectData = [
         img: 'https://i.ibb.co/LgG22bt/ema-jhon.png',
         github: 'https://github.com/siddika-portfolio/ema-jhon-simple',
         live: 'https://ema-jhon-simple-818a6.firebaseapp.com/'
+    },
+    {
+        key: '7',
+        name: 'Power X-Gym',
+        title: 'Power x-Gym a MARN stack website. User can Purchase a Service. Have package facility for users.User can registered with payment id from strip method. ',
+        img: 'https://i.ibb.co/KDsSGgF/x-gym.png',
+        github: 'https://github.com/nahid9764/power-x-gym-team-work-client-side',
+        live: 'https://power-x-gym-ba71d.web.app/'
+    },
+    {
+        key: '8',
+        name: 'Athena website',
+        title: 'A e-commerce website. Authenticated user can see his choose product review. Automated calculation and functionalities are added for the cart. ',
+        img: 'https://i.ibb.co/fnz6CFF/athena-website-pic.png',
+        github: 'https://github.com/nahid9764/athena-design-team-work',
+        live: 'https://determined-poitras-a9005f.netlify.app/'
     }
 ]
 

@@ -11,6 +11,7 @@ import Blogs from './component/Blogs/Blogs';
 import ContactForm from './component/ContactForm/ContactForm';
 import About from './component/About/About';
 
+
 function App() {
   return (
     <div className="App">

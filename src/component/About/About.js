@@ -34,11 +34,16 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="col-md-10">
+                    
+                </div>
             </div>
-            d
+          
 
         </section>
     );
 };
 
 export default About;
+
+
