@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../Header/Navbar/Navbar';
 import BlogsItem from './BlogsItem/BlogsItem';
 import './Blog.css'
 
@@ -48,8 +47,7 @@ const Blogs = () => {
         <div className="blog-bg">
             <div className="container">
                 <div className="project-div" id="project">
-                    <Navbar></Navbar>
-                    <div className=" my-5 ">
+                    <div className=" py-5 ">
                         <h2 className="text-center py-4">Blogs</h2>
                         <div className="row">
                             {

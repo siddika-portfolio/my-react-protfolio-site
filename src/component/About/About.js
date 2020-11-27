@@ -1,13 +1,12 @@
 import React from 'react';
-import Navbar from '../Header/Navbar/Navbar';
 import './About.css';
-import protfolioImg from '../../images/Siddika.png'
+import protfolioImg from '../../images/Portfolio.png'
+
 
 const About = () => {
     return (
-        <section className="about-bg">
+        <section className="about-bg py-5">
             <div className="container-fluid">
-                <Navbar></Navbar>
                 <div className="row pt-5 text-center">
                     <div className="col-md-6">
                         <div className="banner-img pt-5 ">
@@ -33,12 +32,11 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+               
                 </div>
-                <div className="col-md-10">
-                    
-                </div>
+                
             </div>
-          
+           
 
         </section>
     );

@@ -10,13 +10,18 @@ import Projects from './component/Projects/Projects';
 import Blogs from './component/Blogs/Blogs';
 import ContactForm from './component/ContactForm/ContactForm';
 import About from './component/About/About';
+import SkillSection from './component/About/SkillSection/SkillSection';
+import Navbar from './component/Header/Navbar/Navbar';
+import Footer from './component/Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
       <Router>
+      <Navbar></Navbar>
         <Switch>
+       
         <Route path="/home">
             <Header></Header>
           </Route>
@@ -25,6 +30,7 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+            <SkillSection></SkillSection>
           </Route>
           <Route path="/blog">
             <Blogs></Blogs>
@@ -36,6 +42,7 @@ function App() {
             <Header></Header>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
 
 

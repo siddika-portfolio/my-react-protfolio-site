@@ -1,15 +1,9 @@
 .header-bg{
-    height: 100vh;
+    height: 100%;
     background: url("../../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
- /* .header_content{
-    width: 100%;
-    height: auto;
-    top: 50%;
-    left: 50%;
- } */
  .title-des{
   margin-top: 15%;
  }
@@ -43,10 +37,11 @@
       font-size: 30px;
   }
   .header_icons a{
-    padding: 3px 6px;
+    padding: 4px 6px;
     border-radius: 50%;
     color: #897bfc;
     margin: 10px;
+    
   }
   .amimated{
       /* background:#897bfc; */
@@ -62,7 +57,7 @@
     font-size:1.2em;
     color:#897bfc;
     font-weight:bold;
-    /* background:#262B37; */
+    background:#262B37;
     display:table-cell;
     box-shadow:inset 0 0 5px rgba(0,0,0,0.3), 0 5px 0 #ccc;
     padding: 0 10px;

@@ -1,5 +1,5 @@
 .about-bg{
-    height: 100vh;
+    height: 100%;
     background: url("../../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,5 +12,22 @@
   
   }
   .banner-img{
-     
+     padding: 40px;
   }
+  .skill-icon img{
+      height: 130px;
+      margin: 20px 0px;
+      border: none;
+      background: #645757;
+      box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      transition: all 1s;
+}
+  .skill-icon span{
+    margin: 0px 20px;
+   
+}
+
+.skill-icon img:hover{
+    transform: scale(1.4); 
+}

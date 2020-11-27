@@ -7,7 +7,7 @@
     transition: all 1s;
 }
 .project-card:hover{
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
 .project-btn button{
     background-color: #897bfc;

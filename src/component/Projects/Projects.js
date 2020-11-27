@@ -74,9 +74,9 @@ const Projects = () => {
 
 
     return (
-        <div className="project-bg">
+        <div className="project-bg py-4">
             <div className="project-div" id="project">
-                <Navbar></Navbar>
+                {/* <Navbar></Navbar> */}
                 <div className="container my-5 ">
                     <h2 className="text-center py-4">Projects</h2>
                     <div className="row">

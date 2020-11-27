@@ -5,6 +5,11 @@
 #navButton{
     background-color: #897bfc;
     color:white;
+    
+}
+.nav-bg{
+    background-color: #dbd7f7;
+    color:white;
 }
 /* #navbarNav ul li{
  padding: 20px;

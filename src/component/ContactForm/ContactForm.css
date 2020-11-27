@@ -1,6 +1,9 @@
 .contact-bg{
-    height: 100vh;
+    height: 100%;
     background: url("../../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  h6{
+    color: #897bfc;
   }

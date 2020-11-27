@@ -22,7 +22,10 @@ const ProjectDetails = ({ project }) => {
                     </div>
                 </div>
             </div>
+
+            
         </div>
+        
     );
 };
 
