@@ -11,15 +11,15 @@ import Blogs from './component/Blogs/Blogs';
 import ContactForm from './component/ContactForm/ContactForm';
 import About from './component/About/About';
 import SkillSection from './component/About/SkillSection/SkillSection';
-import Navbar from './component/Header/Navbar/Navbar';
 import Footer from './component/Footer/Footer';
+import NavbarCont from './component/Header/Navbar/NavbarCont';
 
 
 function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar></Navbar>
+      <NavbarCont></NavbarCont>
         <Switch>
        
         <Route path="/home">

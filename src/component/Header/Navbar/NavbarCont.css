@@ -1,0 +1,20 @@
+.navbar-logo{
+    height: 85px;
+
+}
+#navButton{
+    background-color: #8147f5;
+    color:white;
+    
+}
+.nav-bg{
+    background-color: #8147f5;
+    color:white;
+}
+
+.nav-item{
+
+    font-size: 16px;
+    padding: 0px 20px!important;
+    color: #FFFFFF!important;
+}

@@ -1,18 +1,10 @@
-.blog-card{
+.linkButton{
+    background-color: #8147f5 !important;
     border: none;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+    color:white !important;
     border-radius: 10px;
-    transition: all 1s;
 }
-.blog-card:hover{
-    transform: scale(1.1); 
-}
-#readButton{
-    background-color: #897bfc;
-    border-radius: 5%;
-}
-#readButton:hover{
+.linkButton:hover{
     color:white;
-    background-color: rebeccapurple;
+    background-color: #897bfc;
 }

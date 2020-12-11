@@ -1,9 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { FaFacebookF, FaLinkedinIn, FaGithubAlt, FaInstagram } from "react-icons/fa";
-import Navbar from '../Header/Navbar/Navbar';
+import { FaFacebookF, FaLinkedinIn, FaGithubAlt, FaInstagram,FaMapMarkerAlt, FaPhone, FaEnvelope, FaTwitter} from "react-icons/fa";
+
 import './ContactForm.css'
-import Footer from '../Footer/Footer';
+
 
 const ContactForm = () => {
     return (
@@ -13,16 +13,17 @@ const ContactForm = () => {
                     <h2 className="text-center pt-4">Contact Me</h2>
                     <div className="form-section my-5 d-flex  pt-5 ">
 
-                        <div className="col-md-5 mr-5">
-                            <p>If you want to know more about anything. You can contact with me. You can also give me opinion about my page. My inbox is always open for you. I will try my best to reply all of your message</p>
-                            <h6>Rangpur, Bangladesh</h6>
-                            <h6>siddika.tas28@gmail.com</h6>
-                            <h6>+8801717357028</h6>
+                        <div className="contact-text col-md-5 mr-5">
+                            <p>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
+                            <h6><span><FaMapMarkerAlt/></span>Rangpur, Bangladesh</h6>
+                            <h6><span><FaPhone/></span>siddika.tas28@gmail.com</h6>
+                            <h6><span><FaEnvelope/></span>+8801717357028</h6>
                             <div className="header_icons mt-5">
-                                <a href="https://www.facebook.com/siddika.akhter.3720/"><FaFacebookF /></a>
-                                <a href="https://www.linkedin.com/in/siddiqa-akhter-portfolio/"><FaLinkedinIn /></a>
-                                <a href="https://github.com/siddika-portfolio"><FaGithubAlt /></a>
-                                <a href=""><FaInstagram /></a>
+                                <a href="https://www.facebook.com/siddika.akhter.3720/" target="_blank"><FaFacebookF /></a>
+                                <a href="https://www.linkedin.com/in/siddiqa-akhter-portfolio/" target="_blank"><FaLinkedinIn /></a>
+                                <a href="https://github.com/siddika-portfolio" target="_blank"><FaGithubAlt /></a>
+                                <a href="https://www.instagram.com/siddika.ins/" target="_blank"><FaInstagram /></a>
+                                <a href="https://twitter.com/SiddikaAkhter1" target="_blank"><FaTwitter/></a>
                             </div>
 
                         </div>
