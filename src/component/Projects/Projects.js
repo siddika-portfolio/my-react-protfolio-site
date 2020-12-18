@@ -23,6 +23,15 @@ const projectData = [
     },
     {
         key: '3',
+        name: 'Doctors Portal',
+        title: 'A single-page web app Used three methods of signing in. Where a user can select a desired destination and book a hotel there.User login this website.',
+        img: 'https://i.ibb.co/Q9QpQ3c/doctors-ss.png',
+        client: 'https://github.com/siddika-portfolio/doctors-portal-clients',
+        server: 'https://github.com/siddika-portfolio/doctors-portal-server',
+        live: 'https://doctors-portal-site-e81ca.web.app/'
+    },
+    {
+        key: '4',
         name: 'Travel-Guru',
         title: 'A single-page web app Used three methods of signing in. Where a user can select a desired destination and book a hotel there.User login this website.',
         img: 'https://i.ibb.co/pXY8D6J/travel-guru.png',
@@ -30,7 +39,7 @@ const projectData = [
         live: 'https://travel-guru-assignment-92767.web.app/'
     },
     {
-        key: '4',
+        key: '5',
         name: 'Twitter Clone',
         title: 'Twitter clone is responsive website.This site user can login email and password. User can be post tweet added image and his valuable text ',
         img: 'https://i.ibb.co/PjxbsSK/twitter-clone.png',
@@ -38,7 +47,7 @@ const projectData = [
         live: 'https://twitter-clone-4519d.web.app/home'
     },
      {
-        key: '5',
+        key: '6',
         name: 'Panda E-commerce',
         title: 'A single page e-commerce site is panda e-commerce website.it is fully responsive bootstrap site.Many product show this website and product price also added',
         img: 'https://i.ibb.co/f4LsmPC/panda.png',
@@ -46,7 +55,7 @@ const projectData = [
         live: 'https://siddika-portfolio.github.io/panda-commerce/'
     },
     {
-        key: '6',
+        key: '7',
         name: 'E-school website',
         title: 'E-school is a responsive online learning site. This website contain some online course team member and testimonial.It is modern online school website',
         img: 'https://i.ibb.co/F5KNycW/e-school.png',
@@ -54,7 +63,7 @@ const projectData = [
         live: 'https://siddika-portfolio.github.io/E-School-website/'
     },
     {
-        key: '7',
+        key: '8',
         name: 'Ema-john E-commerce',
         title: 'A e-commerce website. Authenticated user can see his choose product review. Automated calculation and functionalities are added for the cart. ',
         img: 'https://i.ibb.co/LgG22bt/ema-jhon.png',
@@ -63,21 +72,14 @@ const projectData = [
         live: 'https://ema-jhon-simple-818a6.firebaseapp.com/'
     },
     {
-        key: '8',
+        key: '9',
         name: 'Power X-Gym',
         title: 'Power x-Gym a MARN stack website. User can Purchase a Service. Have package facility for users.User can registered with payment id from strip method. ',
         img: 'https://i.ibb.co/KDsSGgF/x-gym.png',
         client: 'https://github.com/nahid9764/power-x-gym-team-work-client-side',
         live: 'https://power-x-gym-ba71d.web.app/'
     },
-    {
-        key: '9',
-        name: 'Athena website',
-        title: 'A e-commerce website. Authenticated user can see his choose product review. Automated calculation and functionalities are added for the cart. ',
-        img: 'https://i.ibb.co/fnz6CFF/athena-website-pic.png',
-        client: 'https://github.com/nahid9764/athena-design-team-work ',
-        live: 'https://determined-poitras-a9005f.netlify.app/'
-    }
+   
 ]
 
 const Projects = () => {
